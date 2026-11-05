@@ -1,6 +1,6 @@
 MIT License
 
-Copyright (c) 2026 wildsec
+Copyright (c) 2026 Fabian Wildmann
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to deal
@@ -24,6 +24,6 @@ SOFTWARE.
 Third-party material in this repository keeps its own licence:
 
 - engine/assets/fonts/*.woff2 — SIL Open Font License 1.1 (see engine/assets/fonts/OFL-*.txt)
-- The wildsec cat logo (engine/assets/logo-cat-mask.svg) and the names "wildsec" / "wildmann.org"
+- The cat logo (engine/assets/logo-cat-mask.svg) and the name "wildmann.org"
   are brand marks and are not covered by the MIT licence. Replace them with your own brand
   (see README, "Make it yours").
