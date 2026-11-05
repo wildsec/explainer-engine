@@ -207,7 +207,7 @@ colours, so any film can switch looks with `--look`.
 
 ## Make it yours
 
-The examples carry the wildsec brand. Swap it before you publish:
+The examples carry the wildmann.org brand. Swap it before you publish:
 
 - **Logo:** replace `engine/assets/logo-cat-mask.svg`. It's an SVG mask, and the look colours it through `var(--logo)`.
 - **End card:** the URL and slogan live in the film (`film.html` and the last beat of `script.json`).
@@ -246,7 +246,7 @@ The engine is released under the **[MIT licence](LICENSE)**: free to use, modify
 Videos you render with it are yours.
 
 Third-party parts keep their licences: the fonts are under the SIL Open Font License 1.1 (`engine/assets/fonts/OFL-*.txt`), and the Kokoro
-model (downloaded by `setup.sh`, not part of this repo) is Apache-2.0. The wildsec cat logo and the names *wildsec* /
+model (downloaded by `setup.sh`, not part of this repo) is Apache-2.0. The cat logo and the name
 *wildmann.org* in the examples are brand marks and aren't covered by the MIT licence. Replace them with your own.
 
-<div align="center"><sub>Made by <a href="https://github.com/wildsec">wildsec</a> · <a href="https://wildmann.org">wildmann.org</a></sub></div>
+<div align="center"><sub>Made by <a href="https://wildmann.org">wildmann.org</a></sub></div>
