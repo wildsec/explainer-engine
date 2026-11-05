@@ -60,12 +60,12 @@ Every move lands on the word the narrator is saying.
 
 ```mermaid
 flowchart LR
-  A[script.json<br/>beats + text] -->|engine/tts.py<br/>Kokoro| B[narration.wav<br/>timing.json<br/>captions.srt]
-  B --> C[film.html / .css / .js<br/>seek&#40;t&#41; choreography]
-  C -->|engine/render.mjs<br/>headless Chromium| D[frames × sub-frames]
-  D -->|FFmpeg<br/>tmix motion blur + mux| E[film.mp4<br/>1080×1920]
-  C -->|--stills| F[review board]
-  C -->|--cover| G[cover.png]
+  A["script.json<br/>beats + text"] -->|"engine/tts.py<br/>Kokoro"| B["narration.wav<br/>timing.json<br/>captions.srt"]
+  B --> C["film.html / .css / .js<br/>seek(t) choreography"]
+  C -->|"engine/render.mjs<br/>headless Chromium"| D["frames × sub-frames"]
+  D -->|"FFmpeg<br/>tmix motion blur + mux"| E["film.mp4<br/>1080×1920"]
+  C -->|"--stills"| F["review board"]
+  C -->|"--cover"| G["cover.png"]
 ```
 
 A film is an ordinary web page with a `window.seek(t)` function that draws time `t` as a pure function:
