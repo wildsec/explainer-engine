@@ -1,0 +1,15 @@
+{
+  "title": "explainer-engine: a video written as code",
+  "look": "collage",
+  "beats": [
+    {"id": "hook",   "text": "This video was written as code."},
+    {"id": "what",   "text": "It's made with explainer engine. You write a script, then you design the film in HTML, CSS and JavaScript."},
+    {"id": "voice",  "text": "A local voice reads the script, and every word gets a timestamp. So every move lands on the word you hear."},
+    {"id": "render", "text": "Chromium renders every frame, with real motion blur. One continuous take. No slides."},
+    {"id": "looks",  "text": "Change the whole look with one flag. Collage, or terminal."},
+    {"id": "where",  "text": "It's free and open source, even for commercial use. Find it on GitHub, at wild sec slash explainer engine."},
+    {"id": "end",    "text": "Stay curious. Stay covered."}
+  ],
+  "tail": 1.8,
+  "sources": ["https://github.com/wildsec/explainer-engine (MIT licence)"]
+}

@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>explainer-engine — a video written as code</title>
+<link rel="stylesheet" id="look" href="/engine/styles/collage.css">
+<script>{ const l = new URLSearchParams(location.search).get('look'); if (l) document.getElementById('look').href = `/engine/styles/${l}.css`; }</script>
+<link rel="stylesheet" href="film.css">
+<script type="module" src="film.js"></script>
+</head>
+<body>
+  <div id="desk"></div>
+  <div class="layer" id="back">
+    <div class="blue halftone" id="bk1"></div><div class="yellow" id="bk2"></div><div class="red halftone" id="bk3"></div>
+    <div class="yellow halftone" id="bk4"></div><div class="blue" id="bk5"></div>
+  </div>
+  <div class="layer" id="world">
+    <div class="sheet paper" id="sheet">
+      <div class="tape" id="tape0"></div>
+      <div class="ehead type">script.json</div>
+      <pre class="code type">{ "beats": [
+  { "id": "hook",
+    "text": "<span id="hook"></span><b class="cursor" id="cur1"></b>
+  { "id": "what", …</pre>
+    </div>
+    <div class="red paper caps" id="name">explainer-engine</div>
+    <div class="tag yellow paper" id="t0"><b class="caps">HTML</b><span class="type">film.html</span></div>
+    <div class="tag blue paper" id="t1"><b class="caps">CSS</b><span class="type">film.css</span></div>
+    <div class="tag red paper" id="t2"><b class="caps">JS</b><span class="type">film.js</span></div>
+    <div id="strip"><div id="bars"></div><div id="frames"></div><i id="playhead"></i></div>
+    <div id="stamps"></div>
+    <div class="red paper caps" id="lands">lands on the word</div>
+    <div class="paper sheet caps" id="r1">real motion blur</div>
+    <div class="yellow paper caps" id="r2">one continuous take</div>
+    <div class="paper sheet caps" id="r3"><s>slides</s></div>
+    <div class="label" id="flag">--look terminal</div>
+    <div class="look paper sheet" id="lc"><img src="media/collage.jpg"><b class="caps">collage</b></div>
+    <div class="look paper sheet" id="lt"><img src="media/terminal.jpg"><b class="caps">terminal</b></div>
+  </div>
+  <div id="flood" class="black"></div>
+  <div id="final">
+    <div class="yellow paper caps" id="free">free</div>
+    <div class="blue paper caps" id="open">open source</div>
+    <div class="paper sheet caps" id="mit">MIT · commercial use OK</div>
+    <div class="paper sheet type" id="repo"><span class="pr">$ git clone</span><br><span id="repot"></span><b class="cursor" id="cur2"></b></div>
+    <div id="logo" class="brand-logo"></div>
+    <div class="paper sheet caps" id="url"><span id="urlt"></span><b class="cursor" id="cur3"></b></div>
+    <div id="tag" class="book it"><span id="tg1">Stay curious.</span> <span id="tg2">Stay covered.</span></div>
+  </div>
+  <div id="captions"></div>
+  <div id="grain"></div>
+</body>
+</html>

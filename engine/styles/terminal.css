@@ -1,0 +1,50 @@
+/* explainer-engine · look: TERMINAL
+   Black CRT, phosphor green, amber alerts, scanlines and glow. The same class names as collage.css
+   (.paper, .blue, .yellow, .red, .halftone, .tape, .label, captions), so any film can switch looks. */
+@import url('../assets/fonts.css');
+
+:root{
+  --desk:#020803; --paper:#061409; --ink:#7dff8a; --soft:#3fae4c;
+  --blue:#0b2a12; --yellow:#12361a; --red:#ffb23e; --on:#041006; --on-blue:var(--ink); --logo:#041006; --torn:0;
+  --caps:'Vt323'; --book:'Jetbrains Mono'; --type:'Jetbrains Mono';
+  --glow:0 0 10px rgba(125,255,138,.55);
+}
+*{box-sizing:border-box;margin:0;padding:0}
+html,body{width:1080px;height:1920px;overflow:hidden;background:var(--desk);color:var(--ink);font-family:var(--book),monospace;-webkit-font-smoothing:antialiased}
+body{text-shadow:var(--glow)}
+
+#desk{position:absolute;inset:0;background:
+  linear-gradient(rgba(125,255,138,.05) 1px,transparent 1px) 0 0/100% 64px,
+  linear-gradient(90deg,rgba(125,255,138,.05) 1px,transparent 1px) 0 0/64px 100%,
+  radial-gradient(90% 70% at 50% 45%,#0b2410 0%,#020803 78%)}
+.layer{position:absolute;left:0;top:0;transform-origin:0 0}
+.layer>*{position:absolute}
+/* CRT: scanlines + vignette + a little noise, on top of everything */
+#grain{position:absolute;inset:0;pointer-events:none;z-index:50;
+  background:repeating-linear-gradient(0deg,rgba(0,0,0,.32) 0 2px,transparent 2px 5px);box-shadow:inset 0 0 260px 60px #000}
+
+.paper{background:var(--paper);box-shadow:inset 0 0 0 3px var(--ink),0 0 26px rgba(125,255,138,.22)}
+.sheet{background:var(--paper)}
+.blue{background:var(--blue)} .yellow{background:var(--yellow)} .red{background:var(--red)} .black{background:var(--ink)}
+.red, .red *{text-shadow:none;color:var(--on)}
+.halftone{background-image:repeating-linear-gradient(0deg,rgba(125,255,138,.12) 0 2px,transparent 2px 7px)}
+.red.halftone, .red .halftone{background-image:repeating-linear-gradient(0deg,rgba(0,0,0,.18) 0 2px,transparent 2px 6px)}
+#back>*{opacity:.55;box-shadow:inset 0 0 0 2px rgba(125,255,138,.35)}
+#back>.red{opacity:.1}
+.tape{display:none}
+.caps{font-family:var(--caps);font-weight:400;text-transform:uppercase;letter-spacing:.02em}
+.book{font-family:var(--book)} .it{font-style:normal}
+.type{font-family:var(--type);font-weight:700}
+.label{background:var(--ink);color:var(--desk);text-shadow:none;font:400 36px/1 var(--caps);letter-spacing:.14em;text-transform:uppercase;padding:8px 16px}
+.label::before{content:"> "}
+
+#captions{position:absolute;left:70px;right:150px;top:1395px;z-index:40;display:flex;justify-content:center}
+.cap-page{display:flex;flex-wrap:wrap;justify-content:center;gap:8px 10px;transform-origin:50% 100%;
+  background:rgba(2,8,3,.82);box-shadow:inset 0 0 0 2px var(--soft);padding:14px 18px}
+.cap-page span{display:inline-block;color:var(--ink);font:400 76px/1 var(--caps);text-transform:uppercase;padding:2px 8px}
+.cap-page span.on{background:var(--ink);color:var(--desk);text-shadow:none}
+.cursor{display:inline-block;width:.6em;height:1.02em;background:var(--ink);vertical-align:-.16em;margin-left:3px;box-shadow:var(--glow)}
+.red .cursor,#url .cursor{background:var(--ink)}
+
+/* brand: the wildsec cat (mask, recoloured with background) — path is relative to this stylesheet */
+.brand-logo{-webkit-mask:url(../assets/logo-cat-mask.svg) center/contain no-repeat;mask:url(../assets/logo-cat-mask.svg) center/contain no-repeat}

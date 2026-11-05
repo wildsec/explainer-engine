@@ -1,0 +1,17 @@
+{
+  "title": "We might be the last programmers who ever lived",
+  "look": "collage",
+  "beats": [
+    {"id": "hook",     "text": "We might be the last programmers who ever lived."},
+    {"id": "editor",   "text": "Look at the code we write today. More and more of it isn't typed by us."},
+    {"id": "bar",      "text": "In 2023, GitHub said Copilot was already writing forty-six percent of developers' code where it's switched on."},
+    {"id": "timeline", "text": "Ada Lovelace wrote the first program in 1843. FORTRAN let us write code in words in 1957. In 2021, machines started writing it for us. So what comes next?"},
+    {"id": "verdict",  "text": "Partly true. Machines write more of the code every year. But someone still decides what to build, and checks that it's right."},
+    {"id": "end",      "text": "Stay curious. Stay covered."}
+  ],
+  "tail": 1.8,
+  "sources": [
+    "GitHub blog, 14 Feb 2023: 'GitHub Copilot ... behind an average of 46% of a developers' code across all programming languages' (in files where it is enabled)",
+    "Ada Lovelace, Note G (1843); FORTRAN released by IBM (1957); GitHub Copilot technical preview (June 2021)"
+  ]
+}

@@ -1,0 +1,41 @@
+/* positions & sizes for this film (world coordinates unless noted); look tokens live in engine/styles/collage.css */
+#bk1{left:-260px;top:250px;width:620px;height:820px;transform:rotate(-6deg)}
+#bk2{left:700px;top:1250px;width:560px;height:520px;transform:rotate(5deg)}
+#bk3{left:-1700px;top:450px;width:700px;height:640px;transform:rotate(4deg)}
+#bk4{left:-900px;top:1180px;width:520px;height:400px;transform:rotate(-3deg)}
+#bk5{left:1250px;top:300px;width:600px;height:700px;transform:rotate(-5deg)}
+#editor{left:90px;top:360px;width:900px;height:1200px}
+#tape0{left:350px;top:-14px;transform:rotate(-3deg)}
+.ehead{position:absolute;left:60px;top:40px;font-size:26px;color:var(--soft);border-bottom:3px solid var(--ink);padding-bottom:10px;width:780px}
+.hook{position:absolute;left:60px;top:110px;font-size:40px;line-height:58px;white-space:pre;color:var(--ink)}
+#lines>i{position:absolute;height:9px;background:var(--ink);opacity:.85}
+#chip{left:600px;top:240px;display:flex;align-items:center;gap:16px;padding:12px 22px 12px 12px;transform-origin:50% 60%;white-space:nowrap}
+#chipk{display:inline-block;overflow:hidden;white-space:nowrap}
+#num{font-size:72px;line-height:1;color:var(--ink)}
+#note{left:150px;top:1000px;width:780px;padding:30px 36px;transform:rotate(-1.2deg)}
+#note p{font-size:48px;line-height:1.2}
+#note i{color:var(--red)}
+#note cite{display:block;margin-top:16px;font-size:26px;letter-spacing:.12em;font-style:normal;color:var(--soft)}
+#tl{left:-3200px;top:955px;width:6600px;height:10px}
+#tl .solid{position:absolute;left:0;top:0;height:10px}
+#tl .dash{position:absolute;top:2px;height:6px;background:repeating-linear-gradient(90deg,var(--ink) 0 22px,transparent 22px 40px)}
+.card{width:620px;padding:44px 48px 46px;display:flex;flex-direction:column;gap:10px;transform-origin:50% 100%}
+.card .tape{position:absolute;left:215px;top:-22px;transform:rotate(-4deg)}
+.card b{font-size:170px;line-height:.92}
+.card span{font-size:42px;line-height:1.2}
+.card.blue{color:var(--on-blue,var(--on))}.card.red{color:var(--on)}
+.mark{width:40px;height:40px;background:var(--ink);transform:rotate(45deg)}
+.mark.hot{background:var(--red)}
+#flood{position:absolute;inset:0;opacity:0}
+#flood .halftone{position:absolute;inset:0;opacity:.35}
+#final{position:absolute;inset:0;pointer-events:none}
+#final>*{position:absolute;opacity:0}
+#verdict{left:0;right:0;top:420px;display:flex;flex-direction:column;align-items:center;gap:26px}
+#verdict b{font-size:200px;line-height:.9;text-align:center;color:var(--on);text-shadow:6px 8px 0 rgba(20,20,20,.25)}
+#s1{left:110px;top:900px;padding:22px 30px;font-size:64px;color:var(--on-blue,var(--on));transform:rotate(-3deg)}
+#s2{left:170px;top:1060px;padding:22px 30px;font-size:64px;transform:rotate(2deg)}
+#s2 i{text-transform:none;font-weight:400;color:var(--red)}
+#logo{left:390px;top:640px;width:300px;height:303px;background:var(--logo)}
+#url{left:0;right:0;margin:auto;top:1000px;width:max-content;padding:16px 30px;font-size:104px;line-height:1;white-space:pre;transform:rotate(-2deg)}
+#url .cursor{background:var(--red)}
+#tag{left:0;right:0;top:1190px;text-align:center;font-size:52px;color:var(--on)}

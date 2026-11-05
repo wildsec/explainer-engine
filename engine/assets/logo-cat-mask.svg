@@ -1,0 +1,51 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="196" height="198" viewBox="198 64 196 198">
+<!-- wildsec logo, cat only (no wordmark). Used as a CSS mask (opaque = ink), recoloured by the theme. Generated from Assets/with-text/03-stacked-outline.svg. -->
+<mask id="m" maskUnits="userSpaceOnUse" x="152" y="62" width="304" height="306"><g fill="#FFFFFF">
+<g transform="translate(179.00 40.45) scale(0.71429) translate(-20 -29)"><g stroke="#FFFFFF" stroke-width="5" stroke-linejoin="round" stroke-linecap="round">
+<path d="M110 220 L310 220 L260 184 L60 184 Z" fill="#FFFFFF"/>
+<ellipse cx="222" cy="214" rx="78" ry="28" fill="#000000"/>
+<g transform="translate(-10 14)">
+<path d="M134 128 L146 58 L190 96 Z" fill="#000000"/>
+<path d="M266 128 L254 58 L210 96 Z" fill="#000000"/>
+<path d="M148 110 L153 78 L176 98 Z" fill="#000000" stroke="none"/>
+<path d="M252 110 L247 78 L224 98 Z" fill="#000000" stroke="none"/>
+<ellipse cx="200" cy="148" rx="74" ry="62" fill="#000000"/>
+<path d="M152 118 C160 104 182 102 192 112 C184 116 168 118 152 124 Z" fill="#FFFFFF" stroke="none"/>
+<path d="M248 118 C240 104 218 102 208 112 C216 116 232 118 248 124 Z" fill="#FFFFFF" stroke="none"/>
+<path d="M160 146 Q176 134 192 146 Q176 158 160 146 Z" fill="#000000" stroke-width="4"/>
+<path d="M208 146 Q224 134 240 146 Q224 158 208 146 Z" fill="#000000" stroke-width="4"/>
+<ellipse cx="176" cy="147" rx="3.5" ry="6" fill="#FFFFFF" stroke="none"/>
+<ellipse cx="224" cy="147" rx="3.5" ry="6" fill="#FFFFFF" stroke="none"/>
+<rect x="156" y="130" width="40" height="13" fill="#000000" stroke="none"/>
+<rect x="204" y="130" width="40" height="13" fill="#000000" stroke="none"/>
+<path d="M160 143 L192 143 M208 143 L240 143" fill="none"/>
+<path d="M193 166 L207 166 L200 174 Z" fill="#000000" stroke-width="3"/>
+<path d="M200 174 Q200 182 191 182 M200 174 Q200 182 209 182" fill="none" stroke-width="3"/>
+<path d="M150 168 L116 161 M150 177 L114 179 M250 168 L284 161 M250 177 L286 179" fill="none" stroke-width="2.5"/>
+</g>
+<path d="M110 280 L60 244 L60 294 L110 330 Z" fill="#000000"/>
+<path d="M110 270 L60 234 L60 244 L110 280 Z" fill="#FFFFFF"/>
+<path d="M74 246 L70 298" fill="none" stroke-width="27"/>
+<circle cx="70" cy="300" r="15.5" fill="#FFFFFF" stroke="none"/>
+<path d="M74 246 L70 298" fill="none" stroke="#000000" stroke-width="17"/>
+<circle cx="70" cy="300" r="10.5" fill="#000000" stroke="none"/>
+<path d="M96 262 L93 314" fill="none" stroke-width="27"/>
+<circle cx="93" cy="316" r="15.5" fill="#FFFFFF" stroke="none"/>
+<path d="M96 262 L93 314" fill="none" stroke="#000000" stroke-width="17"/>
+<circle cx="93" cy="316" r="10.5" fill="#000000" stroke="none"/>
+<g fill="#000000" stroke="none">
+<ellipse cx="70" cy="303" rx="5" ry="3.8"/><circle cx="63" cy="296" r="2.2"/><circle cx="70" cy="294" r="2.2"/><circle cx="77" cy="296" r="2.2"/>
+<ellipse cx="93" cy="319" rx="5" ry="3.8"/><circle cx="86" cy="312" r="2.2"/><circle cx="93" cy="310" r="2.2"/><circle cx="100" cy="312" r="2.2"/>
+</g>
+<path d="M110 220 L60 184 L60 234 L110 270 Z" fill="#000000"/>
+<rect x="110" y="270" width="200" height="10" fill="#FFFFFF"/>
+<rect x="110" y="220" width="200" height="50" rx="3" fill="#000000"/>
+<rect x="110" y="280" width="200" height="50" rx="3" fill="#000000"/>
+<path d="M128 238 C170 232 210 246 262 238 M140 256 C190 250 240 260 292 252 M128 298 C175 292 220 306 288 298 M150 316 C200 310 250 320 280 314 M72 206 C84 212 96 222 104 232" fill="none" stroke="#FFFFFF" stroke-width="3"/>
+<circle cx="284" cy="300" r="4" fill="none" stroke="#FFFFFF" stroke-width="3"/>
+<ellipse cx="252" cy="224" rx="25" ry="12" fill="#000000"/>
+<path d="M245 229 L245 235 M258 229 L258 235" fill="none" stroke-width="3"/>
+</g></g>
+</g></mask>
+<rect x="152" y="62" width="304" height="306" mask="url(#m)"/>
+</svg>

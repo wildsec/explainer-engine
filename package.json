@@ -1,0 +1,18 @@
+{
+  "name": "explainer-engine",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Code-first explainer shorts: HTML films rendered frame by frame to 1080x1920 MP4 with continuous-take camera moves, real motion blur and Kokoro narration timed to every word.",
+  "license": "MIT",
+  "repository": { "type": "git", "url": "https://github.com/wildsec/explainer-engine.git" },
+  "type": "module",
+  "scripts": {
+    "new": "node engine/new.mjs",
+    "render": "node engine/render.mjs",
+    "tts": "python3 engine/tts.py"
+  },
+  "dependencies": {
+    "puppeteer-core": "^25.16.0",
+    "three": "^0.186.1"
+  }
+}

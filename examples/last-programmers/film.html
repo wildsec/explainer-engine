@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>We might be the last programmers who ever lived</title>
+<link rel="stylesheet" id="look" href="/engine/styles/collage.css">
+<script>{ const l = new URLSearchParams(location.search).get('look'); if (l) document.getElementById('look').href = `/engine/styles/${l}.css`; }</script>
+<link rel="stylesheet" href="film.css">
+<script type="module" src="film.js"></script>
+</head>
+<body>
+  <div id="desk"></div>
+  <div class="layer" id="back">
+    <div class="blue halftone" id="bk1"></div><div class="yellow" id="bk2"></div><div class="red halftone" id="bk3"></div>
+    <div class="blue" id="bk4"></div><div class="yellow halftone" id="bk5"></div>
+  </div>
+  <div class="layer" id="world">
+    <div class="sheet paper" id="editor">
+      <div class="tape" id="tape0"></div>
+      <div class="ehead type">future.py</div>
+      <div class="hook type"><span id="hook"></span><b class="cursor" id="cur1"></b></div>
+    </div>
+    <div id="lines"></div>
+    <div class="yellow paper" id="chip"><span class="label" id="chipk">AI-written</span><span class="caps" id="num">0%</span></div>
+    <div class="sheet paper" id="note"><p class="book">of developers' code was already written by <i>Copilot</i>, where it's switched on.</p><cite class="caps">GitHub · Feb 2023</cite></div>
+    <div id="tl"><div class="solid black"></div><div class="dash"></div></div>
+    <div class="card paper blue" id="c0"><div class="tape"></div><b class="caps">1843</b><span class="book">Ada Lovelace writes the first program</span></div>
+    <div class="card paper yellow" id="c1"><div class="tape"></div><b class="caps">1957</b><span class="book">FORTRAN: code in words</span></div>
+    <div class="card paper sheet" id="c2"><div class="tape"></div><b class="caps">2021</b><span class="book">Machines start writing it for us</span></div>
+    <div class="card paper red" id="c3"><div class="tape"></div><b class="caps">20??</b><span class="book">The last human commit?</span></div>
+    <i class="mark" id="m0"></i><i class="mark" id="m1"></i><i class="mark" id="m2"></i><i class="mark hot" id="m3"></i>
+  </div>
+  <div id="flood" class="red"><div class="halftone"></div></div>
+  <div id="final">
+    <div id="verdict"><span class="label">Verdict</span><b class="caps">Partly true.</b></div>
+    <div class="paper blue caps" id="s1">Machines write more code</div>
+    <div class="paper sheet caps" id="s2">Humans still decide <i class="book it">what</i> &amp; <i class="book it">why</i></div>
+    <div id="logo" class="brand-logo"></div>
+    <div class="paper sheet caps" id="url"><span id="urlt"></span><b class="cursor" id="cur2"></b></div>
+    <div id="tag" class="book it"><span id="tg1">Stay curious.</span> <span id="tg2">Stay covered.</span></div>
+  </div>
+  <div id="captions"></div>
+  <div id="grain"></div>
+</body>
+</html>
